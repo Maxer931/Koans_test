@@ -7,7 +7,7 @@ class AboutStrings < Neo::Koan
   end
 
   def test_single_quoted_strings_are_also_strings
-    string = 'Goodbye, World'
+    string = 'Goodbye, World's
     assert_equal true, string.is_a?(String)
   end
 
